@@ -46,7 +46,7 @@ export type DeleteDialogProps = {
     disabled?: boolean
     children?: ReactNode
 } & WithOrWithoutDeleteConfirmationType
-
+ 
 export interface ForceDeleteDialogType {
     onClickDelete: () => void
     closeDeleteModal: () => void
